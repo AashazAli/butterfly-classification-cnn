@@ -1,0 +1,16 @@
+# Exclude raw image datasets
+*.zip
+data/*
+!data/.gitkeep
+
+# Exclude large trained model weights (>100MB)
+*.h5
+*.keras
+*.pb
+models/*
+!models/.gitkeep
+
+# Exclude environment and temporary files
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
